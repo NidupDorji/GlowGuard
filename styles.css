@@ -1,0 +1,53 @@
+/* Apply dark mode globally */
+.dark-mode, 
+.dark-mode * {
+  background-color: #2a2929 !important;
+  color: #afa2a2 !important;
+  border-color: #2a2929 !important;
+}
+.dark-mode body, 
+.dark-mode .container, 
+.dark-mode .content, 
+.dark-mode .article, 
+.dark-mode section, 
+.dark-mode div, 
+.dark-mode .wrapper, 
+.dark-mode .entry,
+.dark-mode header, 
+.dark-mode footer, 
+.dark-mode aside, 
+.dark-mode .post, 
+.dark-mode .widget {
+  background-color: #2a2929 !important;
+  color: #afa2a2 !important;
+}
+.dark-mode .navbar, 
+.dark-mode .header, 
+.dark-mode .menu {
+  background-color: #2a2929 !important;
+  color: afa2a2 !important;
+}
+.dark-mode a {
+    color: #bb86fc !important; /* Purple for better visibility */
+  }
+  
+  .dark-mode button, 
+  .dark-mode input, 
+  .dark-mode textarea {
+    background-color: #2a2929 !important;
+    color: afa2a2 !important;
+    border: 1px solid #555 !important;
+  }
+  .dark-mode img {
+    filter: brightness(80%) contrast(90%);
+  }
+  .dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3, 
+.dark-mode h4, 
+.dark-mode h5, 
+.dark-mode h6 {
+  color: #afa2a2 !important; /* Make all headings white */
+}
+
+    

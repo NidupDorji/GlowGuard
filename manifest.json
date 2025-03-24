@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Kuensel Dark Mode",
+    "version": "1.0",
+    "description": "Applies dark mode to www.kuensel.com",
+    "permissions": ["storage"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "css": ["styles.css"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
