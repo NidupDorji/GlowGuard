@@ -3,6 +3,11 @@
     "name": "Kuensel Dark Mode",
     "version": "1.0",
     "description": "Applies dark mode to www.kuensel.com",
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+      },
     "permissions": ["storage"],
     "host_permissions": ["<all_urls>"],
     "action": {
